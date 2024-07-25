@@ -8,7 +8,7 @@ jobs:
   call_sync_branch:
     uses: babylonchain/.github/.github/workflows/reusable_sync_branch.yml@hiep/add-sync-branch
     with:
-      base_branch: 'replicate'
-      target_branch: 'hiep/add-cronjob-sync'
+      base_branch: 'main'
+      target_branch: 'dev'
       reviewers: 'hiepmai-babylonchain,jrwbabylonchain'
     secrets: inherit
